@@ -16,15 +16,23 @@
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
+
+  <!-- card  -->
   <section class="container">
-    <picture>
-      <source media="(min-width: 1000px)" srcset="./images/image-header-desktop.jpg">
-      <img src="./images/image-header-mobile.jpg" alt="image of 3 people working in office" class="header-img">
-    </picture>
+
+    <!-- header img  -->
+    <div class="main-img">
+      <picture>
+        <source media="(min-width: 1000px)" srcset="./images/image-header-desktop.jpg">
+        <img src="./images/image-header-mobile.jpg" alt="image of 3 people working in office" class="header-img">
+      </picture>
+      <div class="tint"></div>
+    </div>
+    <!-- discription area  -->
     <div class="main-discription">
       <div class="row">
         <h1>Get <span>insights</span> that help your business grow.</h1>
-        <p class="contant">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        <p class="contant">Discover the benefits of data analytics and make better decisions regarding revenue, customer
           experience, and overall efficiency.
         </p>
         <div class="numbers">
